@@ -14,7 +14,7 @@ source=(
   https://registry.npmjs.org/$pkgname/-/$pkgname-$pkgver.tgz
 )
 noextract=($pkgname-$pkgver.tgz)
-sha256sums=('e92d5aab0c2dcc200dc7ab4b43874917ef8e57129ad2c29bc86e342668821c1e')
+sha256sums=('571cc0164d448bf84a722b389bad1fc5223cfe9375d4df512f6ee2454fa1e583')
 
 package() {
   export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
